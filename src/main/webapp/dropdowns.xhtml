@@ -13,8 +13,8 @@
 	<f:selectItems value="#{dependentDropdownController.parentItems}"/>
 	<f:ajax event="valueChange" render="modelSelect"/>
 </h:selectOneMenu>
-</p>
-<p>Model:
+
+Model:
 <h:selectOneMenu id="modelSelect" value="#{dependentDropdownController.childSelectedItem}"
 	disabled="#{dependentDropdownController.modelSelectDisabled}">
 	<f:selectItems value="#{dependentDropdownController.childItems}"/>
